@@ -1,0 +1,17 @@
+@import './bootstrap/customizations.scss';
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+	background: url('./images/img.png') center center no-repeat;
+}
+
+body {
+	background-color: pink;
+	p {
+		color: red;	
+	}
+	h1 {
+		color: $brand-success;
+	}
+}
